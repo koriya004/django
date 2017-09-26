@@ -4,7 +4,8 @@ Example for insert, update, delete and select data in database
 do following changes in settings.py
 
 add application "books" in installed app
-1.Setting up database
+
+	1.Setting up database
 		DATABASES = {
 		'default': {
 		'ENGINE': 'django.db.backends.sqlite3',
